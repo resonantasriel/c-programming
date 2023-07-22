@@ -15,7 +15,7 @@ int main() {
   acquired the kernel's trust and we can manipulate it to our advantage.
   Let us crash the kernel HAHAHHAHAHAHAHAHHAHAHAHAHAAHAHHA. */
 
-  for (long long int i = 0; i++; (&i)[i] = i);
+  for (long long int i = 0; ++i; (&i)[i] = i);
 
   /** We have exploited the kernel's trust and destroyed it.
   We have successfully hacked the memory.
